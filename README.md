@@ -47,8 +47,6 @@ generate-readme -ignore="node_modules,vendor"
 
 ### Example
 
-Given a project structure like this:
-
 ```markdown
 .
 ├── cmd

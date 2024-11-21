@@ -1,3 +1,7 @@
+## Example
+
+<img width="815" alt="readme-screenshot" src="https://github.com/user-attachments/assets/f503e942-bb1a-4ce2-97d5-aa9235e287fe">
+
 ## Generate Folder Structure
 
 A Golang-based utility to automatically generate a `README.md` file that documents the structure of your project.
@@ -43,19 +47,6 @@ To exclude specific directories (e.g., node_modules and vendor), use the -ignore
 
 ```bash
 generate-readme -ignore="node_modules,vendor"
-```
-
-### Example
-
-```markdown
-.
-├── cmd
-│ └── main.go
-├── pkg
-│ ├── utils.go
-│ └── utils_test.go
-├── README.md
-└── go.mod
 ```
 
 ### License
